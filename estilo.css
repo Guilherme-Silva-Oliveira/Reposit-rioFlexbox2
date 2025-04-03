@@ -63,3 +63,36 @@ h1 {
     padding: 0px 230px;
     justify-content: space-between;
 }
+.containerExercicioB {
+    display: flex;
+    flex-direction: column;
+}
+.containerExercicioB .box1 {
+    order: 4;
+}
+.containerExercicioB .box2 {
+    order: 3;
+}
+.containerExercicioB .box3 {
+    order: 2;
+}
+.containerExercicioB .box4 {
+    order: 1;
+}
+.containerExercicioC {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.containerExercicioC .box1 {
+    order: 4;
+}
+.containerExercicioC .box2 {
+    order: 3;
+}
+.containerExercicioC .box3 {
+    order: 2;
+}
+.containerExercicioC .box4 {
+    order: 1;
+}
